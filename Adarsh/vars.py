@@ -11,7 +11,7 @@ class Var(object):
     MULTI_CLIENT = False
     API_ID = 10956858
     API_HASH = "cceefd3382b44d4d85be2d83201102b7"
-    BOT_TOKEN = "5325357874:AAEEgEkYAo23arFBbDg89qONslSSh9zSYAU"
+    BOT_TOKEN = "5962717194:AAEpOug66r8gHfjikLaAWGGKvNbIYBGvCbA"
     name = str(getenv('name', 'filetolinkbot'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
@@ -21,7 +21,7 @@ class Var(object):
     PING_INTERVAL = int(environ.get("PING_INTERVAL", "1200"))  # 20 minutes
     OWNER_ID = set(int(x) for x in os.environ.get("OWNER_ID", "1125671241 1809710185").split())  
     NO_PORT = bool(getenv('NO_PORT', False))
-    APP_NAME = None
+    APP_NAME = "ds-botzz"
     OWNER_USERNAME = "Irfan50786"
     if 'DYNO' in environ:
         ON_HEROKU = True
